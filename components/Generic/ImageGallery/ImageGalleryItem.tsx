@@ -5,6 +5,9 @@ interface ImageGalleryItemProps {
   imgSrc: string;
 }
 
+/**
+ * ImageGalleryItem is part of ImageGallery to provide an instance of preview
+ */
 export const ImageGalleryItem = ({ title, imgSrc }: ImageGalleryItemProps) => {
   return (
     <ImageListItem>

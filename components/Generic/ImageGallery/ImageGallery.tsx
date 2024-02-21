@@ -5,6 +5,9 @@ interface ImageGalleryProps {
   imageSrcList: string[];
 }
 
+/**
+ * ImageGallery is to provide gallery like view with the 3 column previews
+ */
 export const ImageGallery = ({ imageSrcList }: ImageGalleryProps) => {
   return (
     <ImageList cols={3} gap={3}>

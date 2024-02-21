@@ -7,6 +7,9 @@ import { ContentCenterArea, Panel_1_3 } from "../Generic";
 import { DogsNamePanel } from "./DogsNamePanel";
 import { DogImageList } from "./DogImageList";
 
+/**
+ * Temporary Space for DogsPage to render the content of the home page
+ */
 export const DogsPage = () => {
   const dispatch = useDispatch<AppDispatch>();
 

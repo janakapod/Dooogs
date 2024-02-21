@@ -6,6 +6,14 @@ interface ClickableNameListProps {
   onClick?: (clickedName: string) => void;
 }
 
+/**
+ * Renders a list of clickable names with the option to select a name.
+ *
+ * @param {string} selectedName - The selected name
+ * @param {string[]} nameList - The list of names
+ * @param {Function} onClick - The function to be called when a name is clicked
+ * @return {ReactElement} The rendered list of clickable names
+ */
 export const ClickableNameList = ({
   selectedName,
   nameList,

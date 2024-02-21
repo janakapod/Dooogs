@@ -11,6 +11,13 @@ import {
 import MenuIcon from "@mui/icons-material/Menu";
 import { CollapsiblePanelProps } from "./panel.types";
 
+/**
+ * CollapsiblePanel provides a collapsible panel on mobile view while providing
+ * dynamic sidebar.
+ *  * Depends on MUI's Responsive Drawer (https://mui.com/material-ui/react-drawer/#responsive-drawer)
+ *  * Note that you need to provide reference to the component in "drawer" so that we can inject
+ *    triggerDrawerClose to that component
+ */
 export const CollapsiblePanel = ({
   panelTitle,
   drawer: DrawerPanelComponent,

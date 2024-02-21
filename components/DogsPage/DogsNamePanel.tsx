@@ -9,6 +9,10 @@ interface DogsNamePanelProps {
   triggerDrawerClose?: () => void;
 }
 
+/**
+ * DogsNamePanel will represent the list of dog breeds.
+ * This will select / deselect upon clicking of the breed name.
+ */
 export const DogsNamePanel = ({ triggerDrawerClose }: DogsNamePanelProps) => {
   const dispatch = useDispatch<AppDispatch>();
 

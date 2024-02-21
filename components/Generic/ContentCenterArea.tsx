@@ -5,6 +5,11 @@ interface ContentCenterAreaProps {
   children: React.ReactElement;
 }
 
+/**
+ * Renders a content center area with the provided children.
+ *
+ * @param {ContentCenterAreaProps} children - The children to be rendered in the content center area.
+ */
 export const ContentCenterArea = ({ children }: ContentCenterAreaProps) => {
   return (
     <Box

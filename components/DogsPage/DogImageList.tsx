@@ -8,6 +8,11 @@ import { LoadingIndicator } from "../Generic";
 
 const maxImageCount = 10;
 
+/**
+ * DogImageList will look into state changes in store's selectedBreed and
+ * load the necessary image previews.
+ *  * Please note that current maximum image count is 10 (hardcoded)
+ */
 export const DogImageList = () => {
   const [imageSrcList, setImageSrcList] = useState<string[]>([]);
 
