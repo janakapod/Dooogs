@@ -5,5 +5,5 @@ export interface PanelProps {
 }
 
 export interface CollapsiblePanelProps extends PanelProps {
-  drawerWidth: `${number}${"rem" | "em" | "px"}`;
+  drawerWidth: `${number}${"rem" | "em" | "px" | "%"}`;
 }
